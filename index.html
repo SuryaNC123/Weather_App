@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Weather App</title>
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="app">
+      <section class="weather-card" aria-label="Weather information">
+        <h1 class="app-title">Weather App</h1>
+
+        <!-- Search form -->
+        <form class="search-form" id="search-form">
+          <label for="city-input" class="visually-hidden">Enter city name</label>
+          <input
+            type="text"
+            id="city-input"
+            class="city-input"
+            placeholder="Enter city name (e.g. London)"
+            autocomplete="off"
+            required
+          />
+          <button type="submit" class="search-btn">Search</button>
+        </form>
+
+        <!-- Status messages (loading / error) -->
+        <p class="status-message" id="status-message" aria-live="polite"></p>
+
+        <!-- Weather result container -->
+        <div class="weather-result" id="weather-result" hidden>
+          <h2 class="city-name" id="city-name">City, Country</h2>
+
+          <div class="weather-main">
+            <div class="temp-wrapper">
+              <span class="temperature" id="temperature">--</span>
+              <span class="temp-unit">°C</span>
+            </div>
+            <p class="condition" id="condition">Condition</p>
+          </div>
+
+          <div class="weather-extra">
+            <div class="extra-item">
+              <span class="extra-label">Humidity</span>
+              <span class="extra-value" id="humidity">-- %</span>
+            </div>
+            <div class="extra-item">
+              <span class="extra-label">Wind</span>
+              <span class="extra-value" id="wind">-- m/s</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Main script -->
+    <script src="script.js"></script>
+  </body>
+  </html>
+
+
