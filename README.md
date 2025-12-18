@@ -1,4 +1,4 @@
-# 🌦️ Weather Application (Vanilla JavaScript)
+# 🌦️ Weather Application 
 
 A simple and beginner-friendly **Weather Application** built using **HTML, CSS, and JavaScript** that fetches real-time weather data from the **OpenWeatherMap API**.  
 This project demonstrates how to work with APIs, asynchronous JavaScript, and DOM manipulation without using any frameworks.
@@ -26,6 +26,7 @@ This project demonstrates how to work with APIs, asynchronous JavaScript, and DO
 - **CSS3** – Styling and layout  
 - **JavaScript (ES6+)** – Logic, API calls, DOM manipulation  
 - **OpenWeatherMap API** – Real-time weather data  
+
 
 
 
