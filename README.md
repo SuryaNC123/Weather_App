@@ -1,21 +1,31 @@
-# Weather App (API Based)
+# 🌦️ Weather Application (Vanilla JavaScript)
 
-A simple weather application built using HTML, CSS, and JavaScript that fetches real-time weather data from a public API.
+A simple and beginner-friendly **Weather Application** built using **HTML, CSS, and JavaScript** that fetches real-time weather data from the **OpenWeatherMap API**.  
+This project demonstrates how to work with APIs, asynchronous JavaScript, and DOM manipulation without using any frameworks.
 
-## Features
-- Search weather by city name
-- Real-time temperature and conditions
-- Clean and simple UI
+---
 
-## Technologies Used
-- HTML
-- CSS
-- JavaScript
-- Weather API
+##  Features
 
-## How to Run
-1. Open `index.html` in a browser
-2. Add your own API key in `script.js`
+- Search weather by **city name**
+- Displays:
+  - 🌡 Temperature (Celsius)
+  - ☁️ Weather condition
+  - 💧 Humidity
+  - 🌬 Wind speed
+- Shows **loading state** while fetching data
+- Handles **invalid city names** with error messages
+- Clean and responsive UI
+- Built using **pure JavaScript** (no React, no frameworks)
 
-## Note
-This project was created with the help of Cursor AI for learning purposes.
+---
+
+##  Technologies Used
+
+- **HTML5** – Structure of the application  
+- **CSS3** – Styling and layout  
+- **JavaScript (ES6+)** – Logic, API calls, DOM manipulation  
+- **OpenWeatherMap API** – Real-time weather data  
+
+
+
